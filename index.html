@@ -9,11 +9,13 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 <body>
-    <input type="number" id="timeInput" placeholder="Minuten">
-    <button onclick="startTimer()">Start</button>
-    <button onclick="pauseTimer()">Pause</button>
-    <button onclick="stopTimer()">Stopp</button>
     <div id="timerDisplay"></div>
+    <input type="number" id="timeInput" placeholder="Minuten">
+    <button onclick="startTimer()" id="startButton">Start</button>
+    <button onclick="pauseTimer()" id="pauseButton" style="display:none;">Pause</button>
+    <button onclick="continueTimer()" id="continueButton" style="display:none;">Weiter</button>
+    <button onclick="stopTimer()" id="stopButton" style="display:none;">Stopp</button> 
+    <button onclick="stopMusic()" id="stopPlay" style="display:none;">Alarm Stopp</button>
     <script src="app.js"></script>
 </body>
 </html>

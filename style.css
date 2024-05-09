@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#timerDisplay {
+    font-size: 48px; 
+    margin-bottom: 20px; 
+    color: #FFD700; 
+    font-weight: bold; 
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input {
+    background-color: #838282;
+    color: white;
+}
+
+button {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+input::placeholder {
+    color: #cecece; 
+    opacity: 1; 
+}
+
